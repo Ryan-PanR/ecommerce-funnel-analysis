@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <title>Awesome-pyecharts</title>
                 <script type="text/javascript" src="echarts.min.js"></script>
+            <script type="text/javascript">
+                // 确保 echarts-gl 能正确找到全局 echarts 对象
+                if (typeof window !== 'undefined' && typeof self === 'undefined') {
+                    window.self = window;
+                }
+            </script>
             <script type="text/javascript" src="echarts-gl.min.js"></script>
 
     
