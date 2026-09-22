@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v6/echarts-gl.min.js"></script>
+
+    
+</head>
+<body >
+    <div id="55e2841b826b4e52ac069dc1c6800e68" class="chart-container" style="width:1200px; height:800px; "></div>
+    <script>
+        var chart_55e2841b826b4e52ac069dc1c6800e68 = echarts.init(
+            document.getElementById('55e2841b826b4e52ac069dc1c6800e68'), 'light', {renderer: 'canvas', locale: 'ZH'});
+        var option_55e2841b826b4e52ac069dc1c6800e68 = {
+    "backgroundColor": "#ffffff",
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
+    },
+    "series": [
+        {
+            "type": "bar3D",
+            "name": "\u5ba2\u6237\u6570\u91cf",
+            "data": [
+                [
+                    0,
+                    0,
+                    5359
+                ],
+                [
+                    0,
+                    1,
+                    10529
+                ],
+                [
+                    0,
+                    2,
+                    5821
+                ],
+                [
+                    1,
+                    0,
+                    12
+                ],
+                [
+                    1,
+                    1,
+                    227
+                ],
+                [
+                    1,
+                    2,
+                    524
+                ],
+                [
+                    2,
+                    0,
+                    11325
+                ],
+                [
+                    2,
+                    1,
+                    22299
+                ],
+                [
+                    2,
+                    2,
+                    12092
+                ],
+                [
+                    3,
+                    0,
+                    19
+                ],
+                [
+                    3,
+                    1,
+                    467
+                ],
+                [
+                    3,
+                    2,
+                    978
+                ],
+                [
+                    4,
+                    0,
+                    6251
+                ],
+                [
+                    4,
+                    1,
+                    12110
+                ],
+                [
+                    4,
+                    2,
+                    6316
+                ],
+                [
+                    5,
+                    0,
+                    14
+                ],
+                [
+                    5,
+                    1,
+                    237
+                ],
+                [
+                    5,
+                    2,
+                    410
+                ]
+            ],
+            "label": {
+                "show": false,
+                "margin": 8,
+                "richInheritPlainLabel": true,
+                "valueAnimation": false
+            },
+            "grid3DIndex": 0,
+            "itemStyle": {
+                "opacity": 0.9
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u5ba2\u6237\u6570\u91cf"
+            ],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10,
+            "triggerEvent": false
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "displayTransition": true,
+        "textStyle": {
+            "fontSize": 14,
+            "richInheritPlainLabel": true
+        },
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
+    },
+    "xAxis3D": {
+        "data": [
+            "R\u9ad8-F\u4f4e",
+            "R\u9ad8-F\u9ad8",
+            "R\u4e2d-F\u4f4e",
+            "R\u4e2d-F\u9ad8",
+            "R\u4f4e-F\u4f4e",
+            "R\u4f4e-F\u9ad8"
+        ],
+        "name": "Recency \u00d7 Frequency",
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "min": 0,
+        "max": 5,
+        "axisLabel": {
+            "show": true,
+            "margin": 8,
+            "fontSize": 11,
+            "richInheritPlainLabel": true,
+            "valueAnimation": false
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": false
+            }
+        }
+    },
+    "yAxis3D": {
+        "data": [
+            "M\u4f4e",
+            "M\u4e2d",
+            "M\u9ad8"
+        ],
+        "name": "Monetary",
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "min": 0,
+        "max": 2,
+        "axisLabel": {
+            "show": true,
+            "margin": 8,
+            "fontSize": 12,
+            "richInheritPlainLabel": true,
+            "valueAnimation": false
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": false
+            }
+        }
+    },
+    "zAxis3D": {
+        "name": "\u5ba2\u6237\u6570\u91cf",
+        "show": true,
+        "scale": false,
+        "grid3DIndex": 0,
+        "nameGap": 20,
+        "logBase": 10,
+        "min": 0,
+        "max": 25643,
+        "axisLabel": {
+            "show": true,
+            "margin": 8,
+            "fontSize": 10,
+            "richInheritPlainLabel": true,
+            "valueAnimation": false
+        },
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": false
+            }
+        }
+    },
+    "grid3D": {
+        "boxWidth": 100,
+        "boxHeight": 100,
+        "boxDepth": 100,
+        "splitLine": {
+            "show": true,
+            "lineStyle": {
+                "show": false
+            }
+        },
+        "environment": "auto",
+        "viewControl": {
+            "autoRotate": false,
+            "autoRotateSpeed": 10,
+            "rotateSensitivity": 1,
+            "alpha": 20,
+            "beta": 50,
+            "minAlpha": -90,
+            "maxAlpha": 90
+        },
+        "zlevel": -10,
+        "left": "auto",
+        "top": "auto",
+        "right": "auto",
+        "bottom": "auto"
+    },
+    "title": [
+        {
+            "show": true,
+            "text": "RFM \u5ba2\u6237\u4ef7\u503c 3D \u5206\u6790",
+            "target": "blank",
+            "subtext": "X=Recency\u00d7Frequency(6\u7ec4\u5408), Y=Monetary(3\u6863), \u67f1\u9ad8=\u5ba2\u6237\u6570\u91cf",
+            "subtarget": "blank",
+            "left": "center",
+            "top": "2%",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false,
+            "textStyle": {
+                "color": "#222",
+                "fontWeight": "bold",
+                "fontSize": 20,
+                "richInheritPlainLabel": true
+            },
+            "subtextStyle": {
+                "color": "#666",
+                "fontSize": 13,
+                "richInheritPlainLabel": true
+            }
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "continuous",
+        "min": 0,
+        "max": 22299,
+        "inRange": {
+            "color": [
+                "#313695",
+                "#74add1",
+                "#abd9e9",
+                "#fee090",
+                "#f46d43",
+                "#a50026"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "hoverLink": true,
+        "orient": "vertical",
+        "top": "10%",
+        "right": "3%",
+        "padding": 5,
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 140,
+        "borderWidth": 0
+    }
+};
+        chart_55e2841b826b4e52ac069dc1c6800e68.setOption(option_55e2841b826b4e52ac069dc1c6800e68);
+    </script>
+</body>
+</html>
