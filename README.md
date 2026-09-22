@@ -104,8 +104,10 @@ ecommerce-funnel-analysis/
 ### Top 10类目销售额
 ![类目销售](src/images/category_sales.png)
 
-### RFM 3D交互式图表
-[查看3D图](src/rfm_3d.html)（浏览器打开可交互旋转）
+### RFM 3D 客户价值分析
+![RFM 3D](src/images/rfm_3d.png)
+
+交互式3D图：[查看](src/rfm_3d.html)（浏览器打开可旋转）
 
 ## 快速开始
 
