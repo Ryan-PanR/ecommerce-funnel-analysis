@@ -107,7 +107,7 @@ ecommerce-funnel-analysis/
 ### RFM 3D 客户价值分析
 ![RFM 3D](src/images/rfm_3d.png)
 
-交互式3D图：[查看](src/rfm_3d.html)（浏览器打开可旋转）
+交互式3D图：[在线查看](https://ryan-panr.github.io/ecommerce-funnel-analysis/src/rfm_3d.html)（可旋转缩放）
 
 ## 快速开始
 
